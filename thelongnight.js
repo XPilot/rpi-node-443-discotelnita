@@ -48,4 +48,7 @@ const darknessFalls = () => {
 	});
 };
 
-while (true === true ) {};
+darknessFalls();
+
+
+// while (true === true ) {};
