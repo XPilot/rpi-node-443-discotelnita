@@ -47,3 +47,5 @@ const darknessFalls = () => {
 		}
 	});
 };
+
+while (true === true ) {};
