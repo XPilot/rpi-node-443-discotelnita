@@ -1,0 +1,28 @@
+{
+	"grup1": {
+		"name": "Grup 1",
+		"description": "Capat",
+		"on": 333251,
+		"off": 333260,
+		"pulseLength": 177,
+		"protocol": 1
+	},
+
+	"grup2": {
+		"name": "Grup 2",
+		"description": "Mijloc",
+		"on": 333571,
+		"off": 333580,
+		"pulseLength": 77,
+		"protocol": 1
+	},
+
+	"grup3": {
+		"name": "Grup 3",
+		"description": "Mijloc",
+		"on": 333107,
+		"off": 333116,
+		"pulseLength": 177,
+		"protocol": 1
+	}
+}

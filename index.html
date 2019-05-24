@@ -1,0 +1,119 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+	<head>
+		<meta charset="utf-8">
+		<title>RPI Node 433Mhz Transceiver</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#ffffff">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+
+		<style type="text/css">
+			html,body {
+				margin: 0;
+				padding: 0;
+
+				background: #fafafa;
+			}
+
+			.wrapper {
+				width: 960px;
+
+				margin: 0 auto;
+
+				padding: 100px 0 0 0;
+			}
+
+			.title {
+				margin: 0 0 40px 0;
+			}
+
+			.light-groups {
+				position: relative;
+			}
+
+			.light-group-item {
+				width: 100%;
+				margin: 20px 0;
+			}
+
+			.light-status {
+				display: inline-block;
+
+				width: 20px;
+				height: 20px;
+
+				margin: 0 0 0 20px;
+
+				background: #ff0000;
+				border-radius: 50%;
+			}
+
+			.light-status.active {
+				background: #00c721;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--[if IE]>
+			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+		<![endif]-->
+
+			<div class="wrapper">
+				<h1 class="title">Node RPI 433Mhz Discotelnita</h1>
+
+				<div class="video-area">
+					Best worked on with some music
+
+					<iframe width="960" height="480" src="https://www.youtube.com/embed/P1hlKSuqCgs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+
+				<div class="light-groups">
+					<div class="light-group-item">
+						For key: A, light group is:
+
+						<select id="lg1-val">
+							<option value="grup1" selected>Grup 1</option>
+							<option value="grup2">Grup 2</option>
+							<option value="grup3">Grup 3</option>
+						</select>
+
+						<span class="light-status" id="ls1"></span>
+					</div>
+
+					<div class="light-group-item">
+						For key: S, light group is:
+
+						<select id="lg2-val">
+							<option value="grup1">Grup 1</option>
+							<option value="grup2" selected>Grup 2</option>
+							<option value="grup3">Grup 3</option>
+						</select>
+
+						<span class="light-status" id="ls2"></span>
+
+					</div>
+
+					<div class="light-group-item">
+						For key: D, light group is:
+
+						<select id="lg3-val">
+							<option value="grup1" >Grup 1</option>
+							<option value="grup2">Grup 2</option>
+							<option value="grup3" selected>Grup 3</option>
+						</select>
+
+						<span class="light-status" id="ls3"></span>
+					</div>
+				</div>
+
+			</div>
+
+		<script type="text/javascript" src="/js/app.js"></script>
+
+	</body>
+</html>
