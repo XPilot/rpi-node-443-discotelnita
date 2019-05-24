@@ -1,4 +1,10 @@
+#!/usr/bin/env node
 const args = require('args');
+
+args
+	.option('dryRun', 'Execute commands without actually sending the signal', false);
+const flags = args.parse(process.argv)
+
 const rpi433 = require('rpi-433');
 require('dotenv').config();
 
@@ -14,10 +20,7 @@ const {
 } = process.env;
 
 // Define arguments
-args
-	.option('dryRun', 'Execute commands without actually sending the signal', false);
 
-const flags = args.parse(process.argv)
 
 // Receive / send pins
 const RECEIVE_PIN = parseInt(RECEIVE_PIN_STRING, 10); // pin 17
