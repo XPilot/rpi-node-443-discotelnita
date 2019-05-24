@@ -13,7 +13,7 @@
 		"description": "Mijloc",
 		"on": 333571,
 		"off": 333580,
-		"pulseLength": 77,
+		"pulseLength": 177,
 		"protocol": 1
 	},
 
