@@ -4,6 +4,7 @@
   "description": "Messing with people in a civilized way",
   "main": "index.js",
   "scripts": {
+    "start": "nodejs index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,6 +28,7 @@
   "homepage": "https://github.com/XPilot/rpi-node-443-discotelnita#readme",
   "dependencies": {
     "dotenv": "^8.0.0",
+    "rpi-433": "^2.1.0",
     "socket.io": "^2.2.0"
   }
 }
